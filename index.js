@@ -1,6 +1,5 @@
 (function () {
   "use strict";
-
   function btoa(str) {
     var {Buffer} = require('buffer');
     var buffer;
