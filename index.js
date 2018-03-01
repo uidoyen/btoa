@@ -2,8 +2,8 @@
   "use strict";
 
   function btoa(str) {
-    var buffer
-      ;
+    var {Buffer} = require('buffer');
+    var buffer;
 
     if (str instanceof Buffer) {
       buffer = str;
